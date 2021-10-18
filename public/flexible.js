@@ -58,12 +58,6 @@
         metaEl = doc.createElement('meta');
         metaEl.setAttribute('name', 'viewport');
         metaEl.setAttribute('content', str);
-        setInterval(() => {
-            console.log("🚀 ~ file: flexible.js ~ line 58 ~ str", str)
-        }, 1000)
-        setInterval(() => {
-            console.log("🚀 ~ file: flexible.js ~ line 63 ~ metaEl", metaEl.getAttribute('content'))
-        }, 1000)
         if (docEl.firstElementChild) {
             docEl.firstElementChild.appendChild(metaEl);
         } else {
