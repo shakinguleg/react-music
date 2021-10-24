@@ -47,7 +47,6 @@
     "postcss-loader": "3.0.0",
     "postcss-normalize": "8.0.1",
     "postcss-preset-env": "6.7.0",
-    "postcss-pxtorem": "^6.0.0",
     "postcss-safe-parser": "5.0.2",
     "prompts": "2.4.0",
     "react": "^17.0.2",
@@ -93,7 +92,8 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "postcss-pxtorem": "^5.1.1"
   },
   "jest": {
     "roots": [
